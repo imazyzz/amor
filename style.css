@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: serif;
+    background: url("valentines-rsquo-hearts-border-plasticine-clay-diy-craft.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.cover {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    opacity: 0.3;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+.uni-text {
+    color: #fff;
+    margin-top: 80px;
+    text-align: center;
+    z-index: 10;
+}
+
+.hero-img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 40px auto;
+    border-radius: 10px;
+    border: 2px solid white;
+    z-index: 10;
+}
+
+.citacao {
+    font-style: italic;
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    z-index: 10;
+}
