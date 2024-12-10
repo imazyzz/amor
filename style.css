@@ -9,7 +9,7 @@ body {
     background: url("valentines-rsquo-hearts-border-plasticine-clay-diy-craft.jpg");
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    padding: 4rem;
 }
 
 .cover {
