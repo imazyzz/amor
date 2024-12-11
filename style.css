@@ -10,6 +10,7 @@ body {
     background-position: center;
     background-size: cover;
     padding: 4rem;
+    overflow: hidden;
 }
 
 .cover {
@@ -30,14 +31,24 @@ body {
     z-index: 10;
 }
 
-.hero-img {
-    width: 200px;
-    height: auto;
-    display: block;
+.img-container {
+    width: 300px;
     margin: 40px auto;
+}
+
+.hero-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
     border-radius: 10px;
     border: 2px solid white;
     z-index: 10;
+    opacity: 0; /* Inicia invisível */
+    transition: opacity 1s ease; /* Transição suave de 1s */
+}
+
+.hero-img.show {
+    opacity: 1; /* Torna visível */
 }
 
 .citacao {
@@ -46,4 +57,10 @@ body {
     text-align: center;
     font-weight: normal;
     z-index: 10;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+.citacao.show {
+    opacity: 1;
 }
