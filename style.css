@@ -9,7 +9,7 @@ body {
     background: url("valentines-rsquo-hearts-border-plasticine-clay-diy-craft.jpg");
     background-position: center;
     background-size: cover;
-    padding: 4rem;
+    padding: 3rem 2rem 2rem 2rem;
     overflow: hidden;
 }
 
@@ -26,9 +26,9 @@ body {
 
 .uni-text {
     color: #fff;
-    margin-top: 80px;
     text-align: center;
     z-index: 10;
+    line-height: 1.3;
 }
 
 .img-container {
