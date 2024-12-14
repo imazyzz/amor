@@ -78,3 +78,10 @@ function alterarImagem() {
 setInterval(alterarImagem, 5000);
 
 elementoImagem.classList.add("show");
+
+function iniciarMusica() {
+    const audio = document.getElementById("musica");
+    const botao = document.querySelector(".btn");
+    audio.play();
+    botao.remove();
+}

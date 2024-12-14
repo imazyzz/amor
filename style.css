@@ -6,11 +6,11 @@
 
 body {
     font-family: serif;
-    background: url("valentines-rsquo-hearts-border-plasticine-clay-diy-craft.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("valentines-rsquo-hearts-border-plasticine-clay-diy-craft.jpg");
     background-position: center;
     background-size: cover;
     padding: 3rem 2rem 2rem 2rem;
-    overflow: hidden;
 }
 
 .cover {
@@ -63,4 +63,13 @@ body {
 
 .citacao.show {
     opacity: 1;
+}
+
+.btn {
+    display: block;
+    border: none;
+    margin: auto;
+    margin-top: 20px;
+    padding: 16px;
+    font-family: serif;
 }

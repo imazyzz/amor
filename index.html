@@ -7,7 +7,6 @@
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
-        <div class="cover"></div>
         <h1 class="uni-text">
             <span id="day-counter"></span> universos desde 27/10/2024
             <span id="day-test"></span>
@@ -17,7 +16,7 @@
             <img src="wpp01.jpeg" alt="" class="hero-img" />
         </div>
 
-        <audio autoplay loop>
+        <audio autoplay loop id="musica">
             <source
                 src="/ANAVITÓRIA - Singular (Audio).mp3"
                 type="audio/mpeg"
@@ -26,6 +25,10 @@
         </audio>
 
         <h3 class="citacao"></h3>
+
+        <button onclick="iniciarMusica()" class="btn">
+            Clique e tenha uma surpresa
+        </button>
         <script src="script.js"></script>
     </body>
 </html>
